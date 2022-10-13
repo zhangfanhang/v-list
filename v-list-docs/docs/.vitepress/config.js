@@ -12,6 +12,7 @@ export default {
       { text: 'vue3版本', link: '/three' },
       { text: '作者博客', link: 'https://zfhblog.top' },
     ],
+    siteTitle: '',
     logo: 'https://zfh-nanjing-bucket.oss-cn-nanjing.aliyuncs.com/blog-images/VListLogo.PNG',
   },
 }
