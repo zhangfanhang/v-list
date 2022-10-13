@@ -8,8 +8,8 @@ export default {
     },
     nav: [
       { text: '首页', link: '/' },
-      { text: 'vue2', link: '/two' },
-      { text: 'vue3', link: '/three' },
+      { text: 'vue2版本', link: '/two' },
+      { text: 'vue3版本', link: '/three' },
       { text: '作者博客', link: 'https://zfhblog.top' },
     ],
     siteTitle: 'v-list',

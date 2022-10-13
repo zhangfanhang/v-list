@@ -1,6 +1,6 @@
 ---
+title: 首页
 layout: home
-
 hero:
   name: v-list
   text: 一个基于Vue的虚拟列表组件
