@@ -1,6 +1,6 @@
 {
   "name": "@zhangfanhang/v-list",
-  "version": "1.0.4",
+  "version": "2.0.1",
   "author": "zhangfanhang",
   "description": "一个基于vue2的虚拟列表",
   "main": "./src/index.js",

@@ -1,25 +1,31 @@
 <template>
   <div id="app">
-    <VirtualList :listData="data" :itemSize="100"/>
+    <v-list :list-data="listData" :column="4" v-slot="slotProps" :item-height="30" height="500px">
+      <div style="display: flex;justify-content: center;align-items: center;background-color: red;margin-right: 10px;">{{slotProps.item}}</div>
+    </v-list>
   </div>
 </template>
 
 <script>
-import VirtualList from "./components/VList";
-let d = [];
-for (let i = 0; i < 1000; i++) {
-  d.push({ id: i, value: i });
-}
-
+import VList from "./components/VList";
 export default {
   name: "App",
   data() {
     return {
-      data: d
+      listData:[],
+      first:''
     };
   },
+  created() {
+     this.first=Date.now()
+  },
+  mounted() {
+    for(let i = 0 ;i<10000;i++){
+      this.listData.push(i)
+    }
+  },
   components: {
-    VirtualList
+    VList
   }
 };
 </script>
