@@ -13,9 +13,6 @@ npm i @zhangfanhang/v-list
 
 ```vue
 <template>
-  <div>
-    
-  </div>
     <v-list
         :list-data="listData"
         :item-height="100"
