@@ -1,5 +1,10 @@
 # vue2版本
 
+## 开发环境
+
+![](https://img.shields.io/badge/vue-2.6.14-4FC08D?logo=Vue.js&?style=flat-square)
+
+
 ## 用法
 
 ```shell
