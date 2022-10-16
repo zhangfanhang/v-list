@@ -2,6 +2,8 @@
   <img style='width:100px;height:50px' src='https://zfh-nanjing-bucket.oss-cn-nanjing.aliyuncs.com/blog-images/VListLogo.PNG' alt="v-list"/>
 </div>
 
+![](https://img.shields.io/badge/vue-2.6.14-4FC08D?logo=Vue.js&?style=flat-square)
+
 ## v-list:一个基于vue的虚拟列表
 
 ## 用法
