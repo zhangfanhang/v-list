@@ -15,9 +15,6 @@ hero:
     - theme: alt
       text: vue3版本
       link: /three
-    - theme: alt
-      text: react版本
-      link: /react
 
 features:
   - icon: ⚡️
