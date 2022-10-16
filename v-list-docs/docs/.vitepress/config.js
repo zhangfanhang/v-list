@@ -25,7 +25,7 @@ export default {
         ]
       }
     ],
-    siteTitle: '<v-list />',
+    siteTitle: '',
     logo: 'https://zfh-nanjing-bucket.oss-cn-nanjing.aliyuncs.com/blog-images/VListLogo.PNG',
   },
 }
