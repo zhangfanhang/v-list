@@ -13,7 +13,6 @@ export default {
       { text: '首页', link: '/' },
       { text: 'vue2版本', link: '/two' },
       { text: 'vue3版本', link: '/three' },
-      { text: 'react版本', link: '/react' },
     ],
     sidebar: [
       {
@@ -21,7 +20,6 @@ export default {
         items: [
           { text: 'vue2版本', link: '/two' },
           { text: 'vue3版本', link: '/three' },
-          { text: 'react版本', link: '/react' },
         ]
       }
     ],
