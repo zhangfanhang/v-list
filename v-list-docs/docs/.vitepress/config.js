@@ -15,7 +15,17 @@ export default {
       { text: 'vue3版本', link: '/three' },
       { text: 'react版本', link: '/react' },
     ],
-    siteTitle: '',
+    sidebar: [
+      {
+        text: 'v-list',
+        items: [
+          { text: 'vue2版本', link: '/two' },
+          { text: 'vue3版本', link: '/three' },
+          { text: 'react版本', link: '/react' },
+        ]
+      }
+    ],
+    siteTitle: '<v-list />',
     logo: 'https://zfh-nanjing-bucket.oss-cn-nanjing.aliyuncs.com/blog-images/VListLogo.PNG',
   },
 }
