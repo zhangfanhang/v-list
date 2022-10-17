@@ -3,7 +3,7 @@ export default {
   outDir: './dist',
   themeConfig: {
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/zhangfanhang/v-list' },
     ],
     footer: {
       message: 'Released under the MIT License.',
